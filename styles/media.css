@@ -1,0 +1,209 @@
+@media (min-width: 1200px) {
+    .mercedes-background {
+        display: none;
+    }
+
+    .search-background {
+        display: block;
+    }
+
+    .show .player-background {
+        display: block;
+        position: absolute;
+        top: 23%;
+        right: 14%;
+    }
+
+    .show h4 {
+        position: absolute;
+        top: 88px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 900px) {
+
+    .header-top,
+    .header-bottom,
+    .main-container {
+        width: 852px;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .btn-burger {
+        display: block;
+    }
+
+    .logo {
+        margin-right: 330px;
+    }
+
+    .main-container h2 {
+        width: 603px;
+    }
+
+    .main-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .card {
+        height: 233px;
+        width: 420px;
+    }
+
+    .card img {
+        width: 217px;
+        height: 93px;
+    }
+
+    .diagnostics img {
+        position: absolute;
+        bottom: 0;
+        left: 197px;
+    }
+
+    .card .btn-confirm {
+        position: absolute;
+        padding-block: 14px;
+        bottom: 32px;
+        width: 148px;
+    }
+
+    .mercedes-background {
+        display: block;
+        margin-left: 197px;
+    }
+
+    .show .kia-background {
+        position: absolute;
+        top: 140px;
+        right: 0;
+    }
+}
+
+
+@media (max-width: 899px) and (min-width: 600px) {
+
+    .header-container-bottom,
+    nav ul {
+        display: none;
+    }
+
+    .header-top,
+    .main-container {
+        width: 680px;
+        justify-content: space-between;
+    }
+
+    .btn-burger {
+        display: block;
+    }
+
+    .logo {
+        margin-right: 160px;
+    }
+
+    .main-container h2 {
+        width: 603px;
+    }
+
+    .main-cards {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .card {
+        height: 233px;
+        width: 100%;
+    }
+
+    .card img {
+        width: 287px;
+        height: 123px;
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+    }
+
+    .card .btn-confirm {
+        position: absolute;
+        padding-block: 8px;
+        bottom: 32px;
+        width: 148px;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .header-container-bottom,
+    nav ul,
+    .btn-call {
+        display: none;
+    }
+
+    .header-top,
+    .main-container {
+        width: 335px;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .btn-burger {
+        display: block;
+    }
+
+    .main-container h2 {
+        width: 335px;
+        font-size: 16px;
+        line-height: 1rem;
+        margin-bottom: 24px;
+    }
+
+    .main-cards {
+        height: auto;
+    }
+
+    .card {
+        padding-top: 16px;
+        height: 194px;
+        width: 100%;
+    }
+
+    .main-cards .card *:not(img) {
+        margin-left: 16px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card img {
+        height: 68px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+
+    .card .btn-confirm {
+        position: absolute;
+        padding-block: 8px;
+        bottom: 16px;
+        width: 148px;
+        height: 41px;
+    }
+}

@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 56px;
+}
+
+.header-container-top,
+.header-container-bottom,
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-container-top {
+    border-bottom: 1px solid #CECECE;
+}
+
+.header-top,
+.header-bottom {
+    width: 1300px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a,
+p {
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    /* margin-right: 56px; */
+    margin-left: 93px;
+}
+
+li:not(:last-child),
+p:not(:last-child) {
+    margin-right: 32px;
+}
+
+.btn-call {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #0B457F;
+    width: 204px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.btn-call:hover {
+    background-color: #006CD8;
+}
+
+.btn-burger {
+    border: none;
+    background-color: white;
+    display: none;
+}
+
+.header-bottom {
+    height: 41px;
+}
+
+.address,
+.schedule {
+    display: flex;
+}
+
+.address img,
+.schedule img {
+    margin-right: 8px;
+}
+
+.main-container h2 {
+    font-family: sans-serif;
+    line-height: 1.8rem;
+    font-size: 24px;
+    font-weight: 400;
+    color: #3E3E3E;
+    margin-bottom: 32px;
+}
+
+.main-container {
+    width: 1300px;
+
+
+}
+
+.main-cards {
+    width: 100%;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    width: 33%;
+    background: radial-gradient(#272b2b, #1c1e1f);
+    /* background: url('../assets/images/Rectangle\ 615.svg'); */
+    background-size: cover;
+    background-position: center right;
+    color: white;
+    border-radius: 12px;
+    padding-top: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.diagnostics,
+.evaluation {
+    height: 100%;
+}
+
+.show,
+.reservation {
+    height: calc(50% - 6px);
+}
+
+.card h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 12px;
+    width: 250px;
+    margin-left: 28px;
+}
+
+.card h4 {
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 300;
+    margin-bottom: 32px;
+    margin-left: 28px;
+    width: 305px;
+}
+
+.btn-confirm {
+    color: inherit;
+    letter-spacing: 0.46px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-left: 28px;
+    text-align: center;
+    height: 45px;
+}
+
+.btn-confirm:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.diagnostics .btn-confirm {
+    width: 143px;
+}
+
+.show .btn-confirm,
+.reservation .btn-confirm {
+    width: 180px;
+}
+
+.evaluation .btn-confirm {
+    width: 119px;
+}
+
+.diagnostics img {
+    position: absolute;
+    bottom: 0;
+    left: 3%
+}
+
+.show .btn-confirm {
+    position: absolute;
+    bottom: 49px;
+    z-index: 1;
+}
+
+.show .kia-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.reservation img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.evaluation img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.search-background,
+.show .player-background {
+    display: none;
+}
